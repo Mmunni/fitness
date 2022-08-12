@@ -1,0 +1,70 @@
+/* reset css */
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    transition: .3s;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+li{
+    list-style: none;
+}
+html{
+    /* font-size: 62.5%; */
+    font-weight: 400;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* header css */
+#header{
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+.logo img {
+	width: 176px;
+}
+
+.navbar-icon {
+    color: #fff;
+  }
+  
+  .nav-link {
+    float: right;
+    color: #fff;
+  }
+  .nav-link:hover{
+    color: #fff;
+  }
+
+/* welcome css */
+.welcome-title {
+	margin-top: -140px;
+}
+
+.welcome-title p{
+    padding: 5px;
+}
+.welcome-title a{
+    color: #fff;
+}
+.btn:focus{
+    box-shadow: none;
+}
+.btn-color, .btn:hover{
+    background-color: darkblue;
+    color: #fff;
+}
+/* about css */
+#about{
+    margin-top: 30px;
+}
