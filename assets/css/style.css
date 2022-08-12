@@ -68,3 +68,28 @@ body{
 #about{
     margin-top: 30px;
 }
+.another-about{
+    padding-top: 100px;
+}
+
+/* services css */
+#services{
+    background-color: #ddd;
+}
+.single-service{
+    padding: 100px 0 100px;
+}
+/* features css */
+#featured{
+    background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../images/feature-bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
+.featured-area{
+    padding: 100px 0 100px;
+}
+.featured-area p{
+    font-size: 14px;
+}
