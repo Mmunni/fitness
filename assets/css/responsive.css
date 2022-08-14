@@ -9,6 +9,12 @@
     .featured-area p{
         font-size: 10px;
     }
+    input[type="button"] {
+       
+        left: 70%;
+        bottom: 8%;
+      
+    }
     
  }
  
@@ -34,6 +40,9 @@
     }
     .testimonial-image img {
         top: 120px;
+    }
+    input[type="button"] {
+        left: 65%;
     }
  }
 
